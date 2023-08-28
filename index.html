@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="Ei=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Background click-change</title>
+</head>
+<body>
+    <div id="names">
+        <ul>
+            <li class="test">world</li>
+            <li class="test">peace</li>
+            <li class="test">life</li>
+            <li class="test">dream</li>
+        </ul>
+    </div>
+    <button onclick="test()">click</button>
+    <script>
+
+        const test =()=> {
+            // let s = document.getElementById('names').innerHTML = 'salam'            
+            // // document.body.style.backgroundColor = 'green'
+            // document.body.style.backgroundImage = 'url(https://images.unsplash.com/photo-1689665343375-5b0de6b87cf3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDI3NXxibzhqUUtUYUUwWXx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60)'
+            // // document.body.style.backgroundRepeat = 'no-repeat'
+            // document.body.style.backgroundSize = 'cover'
+
+            setTimeout(() =>{
+            // test()
+            let s = document.getElementById('names').innerHTML = 'salam'            
+            // document.body.style.backgroundColor = 'green'
+            document.body.style.backgroundImage = 'url(https://images.unsplash.com/photo-1689665343375-5b0de6b87cf3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDI3NXxibzhqUUtUYUUwWXx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60)'
+            // document.body.style.backgroundRepeat = 'no-repeat'
+            document.body.style.backgroundSize = 'cover'
+        },3000 )
+        }
+        
+    </script>
+</body>
+</html>

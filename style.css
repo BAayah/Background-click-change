@@ -1,0 +1,30 @@
+body {
+    width: 100%;
+    max-width: 1500px;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    flex-direction: column;
+}
+div ul {
+    list-style: none;
+}
+div ul li {
+    font-size: 25px;
+    color: white;
+}
+button {
+    font-size: 30px;
+    width: 90px;
+    height: 50px;
+    border-radius: 15px;
+    border: 2px solid red;
+}
+#names {
+    font-size: 30px;
+    transform: rotate(360deg);
+    transition: 2s;
+}
+
